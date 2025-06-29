@@ -1,1 +1,1 @@
-require("tokyonight").load("spearmint")
+require("tokyonight").load()
