@@ -9,14 +9,15 @@ local ret = {
   fg_gutter = "#3b4048",
   comment = "#5c6370",
 
-  red = "#7da6ff", -- soft blue for errors
+  -- Accents
+  red = "#6db9d6", -- soft blue-cyan
   orange = "#4db5bd", -- desaturated teal
-  yellow = "#6db9d6", -- muted blue-cyan
-  green = "#00dba7", -- fresh mint green
-  blue = "#61afef", -- mid blue (from tokyonight)
+  yellow = "#63c8aa", -- mint
+  green = "#00dba7", -- brighter mint for success
+  blue = "#61afef", -- mid blue
   cyan = "#56b6c2", -- softer cyan
-  magenta = "#9aa5cf", -- muted lavender
-  purple = "#9aa5cf", -- same as magenta for subtle purple
+  magenta = "#6db9d6", -- soft blue-cyan
+  purple = "#4db5bd", -- teal
   teal = "#63c8aa", -- pastel mint teal
 
   terminal_black = "#414868",
@@ -25,8 +26,8 @@ local ret = {
 
   git = {
     add = "#00dba7", -- mint green
-    change = "#6db9d6", -- blue-cyan
-    delete = "#7da6ff", -- soft blue
+    change = "#63c8aa", -- mint teal
+    delete = "#6db9d6", -- soft blue-cyan
   },
 }
 
