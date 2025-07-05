@@ -8,22 +8,25 @@ local ret = {
   fg_dark = "#7f848e",
   fg_gutter = "#3b4048",
   comment = "#5c6370",
-  red = "#EC91FA",
-  orange = "#00FA9A",
-  yellow = "#3C99DE",
-  green = "#00FA9A",
-  blue = "#61afef",
-  cyan = "#56b6c2",
-  magenta = "#c678dd",
-  purple = "#c678dd",
-  teal = "#1abc9c",
+
+  red = "#7da6ff", -- soft blue for errors
+  orange = "#4db5bd", -- desaturated teal
+  yellow = "#6db9d6", -- muted blue-cyan
+  green = "#00dba7", -- fresh mint green
+  blue = "#61afef", -- mid blue (from tokyonight)
+  cyan = "#56b6c2", -- softer cyan
+  magenta = "#9aa5cf", -- muted lavender
+  purple = "#9aa5cf", -- same as magenta for subtle purple
+  teal = "#63c8aa", -- pastel mint teal
+
   terminal_black = "#414868",
   black = "#1e222a",
   white = "#abb2bf",
+
   git = {
-    add = "#00FA9A",
-    change = "#3C99DE",
-    delete = "#EC91FA",
+    add = "#00dba7", -- mint green
+    change = "#6db9d6", -- blue-cyan
+    delete = "#7da6ff", -- soft blue
   },
 }
 
