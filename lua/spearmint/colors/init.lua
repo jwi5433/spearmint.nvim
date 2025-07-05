@@ -70,8 +70,7 @@ function M.setup(opts)
     colors.yellow,
     colors.green,
     colors.teal,
-    colors.magenta,
-    colors.purple,
+    colors.cyan,
     colors.orange,
     colors.red,
   }
@@ -96,6 +95,30 @@ function M.setup(opts)
     white          = colors.fg_dark,
     white_bright   = colors.fg,
   }
+
+  opts.on_highlights = function(hl, c)
+    hl["@keyword"] = { fg = "#63c8aa" }
+
+    hl["@function"] = { fg = "#00dba7" }
+
+    hl["@variable"] = { fg = "#55b9a6" }
+
+    hl["@constant"] = { fg = "#61afef" }
+
+    hl["@type"] = { fg = "#6db9d6" }
+
+    hl.String = { fg = "#4db5bd" }
+
+    hl.Comment = { fg = "#5c6370", italic = true }
+
+    hl.Visual = { bg = "#2d4d43" }
+
+    hl.IndentBlanklineChar = { fg = "#4db5bd", nocombine = true }
+    hl.IndentBlanklineContextChar = { fg = "#63c8aa", nocombine = true }
+
+    hl.LineNr = { fg = "#879F91" }
+    hl.CursorLineNr = { fg = "#00dba7", bold = true }
+  end
 
   opts.on_colors(colors)
 
